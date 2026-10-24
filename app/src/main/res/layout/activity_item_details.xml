@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Dell Laptop"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Found near Library CS Dept on Oct 20.\nCondition: Good."
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnContactOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Owner"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnClaimItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Claim Item"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>
